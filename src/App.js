@@ -13,7 +13,6 @@ function App() {
         <div className="App">
             <BrowserRouter>
                 <Header />
-                <h1>E-commerce Dashboard</h1>
                 <Routes>
                     <Route path="Add" element={<Add />} />
                 </Routes>

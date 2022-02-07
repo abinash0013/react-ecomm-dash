@@ -9,10 +9,10 @@ function Header() {
                     <Navbar.Brand href="#home">Navbar</Navbar.Brand>
                     <Nav className="me-auto _navbar_warpper">
                         <Link to="/">Dashboard</Link>
-                        <Link to="/add">Add Product</Link>
-                        <Link to="/update">Update Product</Link>
-                        <Link to="/login">Login</Link>
-                        <Link to="/register">Register</Link>
+                        <Link to="/Sdd">Add Product</Link>
+                        <Link to="/Update">Update Product</Link>
+                        <Link to="/Login">Login</Link>
+                        <Link to="/Register">Register</Link>
                     </Nav>
                 </Container>
             </Navbar>
