@@ -28,7 +28,7 @@ function Register() {
         result = await result.json();
         console.log("result", result);
         localStorage.setItem("user-info", JSON.stringify(result));
-        alert("user register successfully..");
+        // alert("user register successfully..");
         navigate("/add");
     }
 
