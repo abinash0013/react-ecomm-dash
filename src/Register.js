@@ -71,7 +71,7 @@ function Register() {
                     onClick={signup}
                     className="btn btn-primary d-block w-100"
                 >
-                    Register
+                    Signin
                 </button>
             </div>
         </>
