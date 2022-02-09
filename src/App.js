@@ -2,22 +2,21 @@ import logo from "./logo.svg";
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import {} from "react-bootstrap";
-import Header from "./Header";
 import Login from "./Login";
 import Register from "./Register";
 import Add from "./Add";
 import Update from "./Update";
+import Protected from "./Protected";
 
 function App() {
     return (
         <div className="App">
             <BrowserRouter>
-                <Header />
                 <Routes>
-                    <Route path="Add" element={<Add />} />
+                    <Route path="Add" element={<Protected Cmp={Add} />} />
                 </Routes>
                 <Routes>
-                    <Route path="Update" element={<Update />} />
+                    <Route path="Update" element={<Protected Cmp={Update} />} />
                 </Routes>
                 <Routes>
                     <Route path="Login" element={<Login />} />
