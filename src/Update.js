@@ -40,9 +40,7 @@ function Update(props) {
                 defaultValue={data.description}
             />
             <br />
-            <button className="btn btn-primary d-block w-100">
-                Update Product
-            </button>
+            <button className="btn btn-primary d-block w-100">Update</button>
         </div>
     );
 }
