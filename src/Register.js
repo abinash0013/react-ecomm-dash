@@ -35,7 +35,7 @@ function Register() {
     return (
         <>
             <Header />
-            <div className="col-sm-6 offset-sm-3 border-1">
+            <div className="col-sm-6 offset-sm-3">
                 <h1 className="p-5">Register Page</h1>
                 <input
                     type="text"

@@ -4,7 +4,7 @@ import { Link, useNavigate } from "react-router-dom";
 function Header() {
     const navigate = useNavigate();
     const user = JSON.parse(localStorage.getItem("user-info"));
-    console.log(user);
+    // console.log(user);
     function logout() {
         localStorage.clear();
         navigate("/register");
@@ -15,11 +15,12 @@ function Header() {
                 <Container>
                     <Navbar.Brand href="#home">Admin</Navbar.Brand>
                     <Nav className="me-auto _navbar_warpper">
-                        <Link to="/">Dashboard</Link>
                         {localStorage.getItem("user-info") ? (
                             <>
+                                <Link to="/">Product List</Link>
                                 <Link to="/Add">Add Product</Link>
-                                <Link to="/Update">Update Product</Link>
+                                {/* <Link to="/Update">Update Product</Link> */}
+                                <Link to="/Search">Search Product</Link>
                             </>
                         ) : (
                             <>

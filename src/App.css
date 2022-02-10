@@ -15,6 +15,28 @@ a {
     padding: 0 5px;
     float: right !important;
 }
+.Update-Button {
+    background-color: blueviolet;
+    color: #fff;
+    border-radius: 2px;
+    cursor: pointer;
+    padding: 5px 10px;
+    margin: 10px 5px;
+}
+.Delete-Button {
+    background-color: red;
+    color: #fff;
+    border-radius: 2px;
+    cursor: pointer;
+    margin: 10px 5px;
+    padding: 5px 10px;
+}
+.td {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+}
 @media (prefers-reduced-motion: no-preference) {
     .App-logo {
         animation: App-logo-spin infinite 20s linear;
